@@ -1,3 +1,4 @@
+//products
 const db = {
     categories: [
         { id: 'trophies', name: 'Trophies & Cups', image: 'https://thumbs.dreamstime.com/b/sports-awards-cups-medals-competitions-prizes-awarded-champions-cup-bedal-122560743.jpg', productCount: 0 },
