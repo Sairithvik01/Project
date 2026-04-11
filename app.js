@@ -1,6 +1,6 @@
 // --- 1. INITIALIZE DB AND ALL REQUIRED DATA ARRAYS ---
 // DB is loaded from data.js
-
+//
 // Automatically update category counts
 db.categories.forEach(cat => {
     cat.productCount = db.products.filter(p => p.catId === cat.id).length;
